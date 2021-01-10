@@ -52,13 +52,13 @@ void show(){
     }
 }
 
-void main(){
-    push(10);
-    push(20);
-    push(30);
-    show();
-    pop();
-    show();
-    push(35);
-    show();
-}
+// void main(){
+//     push(10);
+//     push(20);
+//     push(30);
+//     show();
+//     pop();
+//     show();
+//     push(35);
+//     show();
+// }
