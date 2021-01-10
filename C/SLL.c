@@ -20,8 +20,10 @@ void append(int data){
 void addHead(int data){
     Node *temp = (Node*)malloc(sizeof(Node));
     temp->data = data;
-    if(head == NULL)
-    head = temp;
+    if(head == NULL){
+        head = temp;
+        head->next = NULL;
+    }
     else{
         temp->next = head;
         head = temp;
