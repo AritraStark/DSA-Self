@@ -1,0 +1,6 @@
+    ADT                 Primitive
+Dynamic Array   |       Linked List
+Stack           |       Linked List, Array
+Queue           |       Linked List, Array
+Tree            |       Linked List
+Hash Table      |       Linked List
