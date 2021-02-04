@@ -1,14 +1,14 @@
-#ifndef SLL
-#define SLL
+#ifndef DLL
+#define DLL
 
-struct node{
+struct Node{
     int data;
-    struct node *next;
+    struct Node *next,*prev;
 };
 
-typedef struct node Node;
+typedef struct Node Node;
 
-Node *head = NULL;
+Node *head,*tail;
 int size = 0;
 
 void append(int data);
@@ -16,8 +16,7 @@ void addHead(int data);
 void addAtN(int data,int n);
 void printList();
 void showAtN(int n);
-void reverseIter();
-void reverseRec();
+void printRev();
 void length();
 void deleteAtN(int n);
 
