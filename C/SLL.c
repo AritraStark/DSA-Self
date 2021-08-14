@@ -103,6 +103,14 @@ void deleteAtN(int n){
     
 }
 
+void deleteHead(){
+    if (head == NULL) 
+    return; 
+    Node *temp = head;
+    head = head->next;
+    free(temp);
+}
+
 void main(){
     append(10);
     append(15);
@@ -113,6 +121,6 @@ void main(){
     printList();
     reverseRec(head,NULL);
     printList();
-    deleteAtN(2);
+    deleteHead();
     printList();
 }

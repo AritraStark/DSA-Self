@@ -20,5 +20,6 @@ void reverseIter();
 void reverseRec();
 void length();
 void deleteAtN(int n);
+void deleteHead();
 
 #endif
